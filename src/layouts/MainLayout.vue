@@ -2,15 +2,6 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
-
         <q-toolbar-title class="text-h1">
           <span>CHRIS</span> BARNETT
         </q-toolbar-title>
@@ -19,7 +10,14 @@
 
         <DarkModeBtn></DarkModeBtn>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <q-btn
+          flat
+          dense
+          round
+          icon="menu"
+          aria-label="Menu"
+          @click="toggleLeftDrawer"
+        />
       </q-toolbar>
     </q-header>
 
@@ -89,13 +87,6 @@ const linksList = [
     link: "https://awesome.quasar.dev",
   },
 ];
-
-
-
-
-
-
-
 
 export default defineComponent({
   name: "MainLayout",
