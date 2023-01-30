@@ -10,7 +10,6 @@
   <q-toggle
     v-model="$q.dark.isActive"
     color="secondary"
-    label="Dark mode"
     label-position="left"
   />
 </template>

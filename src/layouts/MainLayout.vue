@@ -37,6 +37,15 @@
 
     <q-page-container>
       <router-view />
+      <q-btn
+        class="q-mt-md bg-secondary text-white"
+        round
+        dense
+        flat
+        right
+        icon="arrow_upward"
+        @click="scrollToTop"
+      />
     </q-page-container>
   </q-layout>
 </template>
@@ -110,6 +119,15 @@ export default defineComponent({
         leftDrawerOpen.value = !leftDrawerOpen.value;
       },
     };
+  },
+
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    },
   },
 });
 </script>

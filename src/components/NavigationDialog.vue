@@ -28,13 +28,19 @@
         <div class="justify-center row">
           <q-card-section>
             <div class="text-h1 text">HOME</div>
+            <q-separator color="accent" />
+
             <div class="text-h1 text">ABOUT</div>
+            <q-separator color="accent" />
 
             <div class="text-h1 text">PROJECTS</div>
+            <q-separator color="accent" />
 
             <div class="text-h1 text">CONTACT</div>
-
+            <q-separator color="accent" />
             <div class="text-h1 text">RESUME</div>
+            <q-separator color="accent" />
+
             <q-avatar class="q-mt-md q-mr-md">
               <img
                 src="https://cdn.quasar.dev/img/avatar.png"
