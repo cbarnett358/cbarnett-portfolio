@@ -1,9 +1,7 @@
 <template>
-  <div class="container q-mx-md q-mb-none">
-    <div class="text-h2 text-secondary">VIEW PROJECTS</div>
-  </div>
+  <q-page class="container q-mx-md q-mb-none">
+    <div class="text-h2 text-secondary q-mt-lg">VIEW PROJECTS</div>
 
-  <q-page class="container q-mx-sm q-mb-none">
     <PortfolioCards></PortfolioCards>
   </q-page>
 </template>
