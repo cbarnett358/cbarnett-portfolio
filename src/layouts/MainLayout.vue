@@ -9,8 +9,9 @@
         <q-space />
 
         <DarkModeBtn></DarkModeBtn>
+        <NavigationDialog></NavigationDialog>
 
-        <q-btn
+        <!--<q-btn
           flat
           dense
           round
@@ -18,10 +19,11 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
+       -->
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+    <!-- <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-item-label header> Essential Links </q-item-label>
 
@@ -31,7 +33,7 @@
           v-bind="link"
         />
       </q-list>
-    </q-drawer>
+    </q-drawer>-->
 
     <q-page-container>
       <router-view />
@@ -43,6 +45,7 @@
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
 import DarkModeBtn from "components/DarkModeBtn.vue";
+import NavigationDialog from "src/components/NavigationDialog.vue";
 const linksList = [
   {
     title: "Docs",
@@ -92,8 +95,9 @@ export default defineComponent({
   name: "MainLayout",
 
   components: {
-    EssentialLink,
+    // EssentialLink,
     DarkModeBtn,
+    NavigationDialog,
   },
 
   setup() {

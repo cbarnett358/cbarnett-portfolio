@@ -7,8 +7,8 @@
       :key="card.id"
     >
       <q-img :src="card.image" class="q-pb-none" />
-      <div id="portfolio-cards" class="text-h5 absolute-bottom text-right">
-        {{ card.title }}
+      <div id="portfolio-cards" class="text-h5 absolute-bottom text-left">
+        &nbsp;{{ card.title }}
       </div>
     </q-card>
   </div>
@@ -70,6 +70,42 @@ export default defineComponent({
         subtitle: "Subtitle 4",
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5f9c85126132195.Y3JvcCw1ODEsNDU0LDEwMCwzODk.png",
+      },
+      {
+        id: 8,
+        title: "Koss Headphones",
+        subtitle: "Subtitle 4",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/4b3107132916979.Y3JvcCw5NzksNzY1LDE5OCwxNTU.png",
+      },
+      {
+        id: 9,
+        title: "Heckin' Snackers",
+        subtitle: "Subtitle 4",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e94eb5127530107.Y3JvcCwxNDAwLDEwOTUsMCwxMzg.png",
+      },
+      {
+        id: 10,
+        title: "Sargento Cheese",
+        subtitle: "Subtitle 4",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/c7440c131164975.Y3JvcCw4MDIsNjI3LDE0MiwxMTM.png",
+      },
+      {
+        id: 11,
+        title: "TW 25th Masters Anniversary",
+        subtitle: "Subtitle 4",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/766403141406807.Y3JvcCwxMzE3LDEwMzAsNDUzLDI5MA.png",
+      },
+
+      {
+        id: 12,
+        title: "Golf Ball Animation",
+        subtitle: "Subtitle 4",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/8e6268130452031.Y3JvcCwxMTMwLDg4MywwLDU.png",
       },
     ];
 
