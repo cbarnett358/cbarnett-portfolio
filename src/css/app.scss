@@ -1,23 +1,143 @@
 // app global css in SCSS form
+
 .q-toolbar {
   border-bottom: 5px;
   border-bottom-style: solid;
   border-bottom-color: $accent;
 }
+/* .body--light {
+  ...
+}*/
 
-.text-h1 span {
-  font-family: franklin-gothic-atf, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 400;
-  font-style: normal;
+.body--dark {
+  .q-toolbar {
+    color: white;
+  }
+  #nav-btn {
+    color: white !important;
+  }
+  #secondary-button {
+    color: $primary !important;
+  }
+
+  .q-btn {
+    color: $primary;
+  }
+  /* ... */
+
+  .text-h5 span {
+    color: $accent !important;
+    font-family: franklin-gothic-atf, sans-serif;
+  }
+  .text-h5,
+  .text-primary {
+    color: white !important;
+  }
+
+  .text-h2 span,
+  .text-h2 {
+    color: white !important;
+  }
 }
-.text-h1 {
+.text-h6 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   font-family: franklin-gothic-atf, sans-serif;
-  font-size: 2.5rem;
+
+  span {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+}
+
+.q-tab__label {
+  font-weight: 600;
+}
+#cardtitle {
+  font-family: franklin-gothic-atf, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
+
+.text-h1 span {
+  font-family: franklin-gothic-atf, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 300;
+  font-style: normal;
+
+  @media (max-width: 600px) {
+    font-size: 1.6rem;
+  }
+}
+
+.text-h5 span {
+  font-weight: 600;
+}
+.text-h1 {
+  font-family: franklin-gothic-atf, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 2rem;
+  @media (max-width: 600px) {
+    font-size: 1.6rem;
+    line-height: 1.1rem;
+  }
+}
+.my-padding {
+  //padding for desktop
+  @media (min-width: 600px) {
+    padding: 3rem;
+  }
+
+  //padding for mobile
+  @media (max-width: 600px) {
+    padding: 1rem;
+  }
+}
+.my-container {
+  //style for desktop
+  @media (min-width: 600px) {
+    max-width: 1200px;
+    //center container
+    margin: 0 auto;
+  }
+  //style for mobile
+  @media (max-width: 600px) {
+    margin: auto;
+  }
+}
+
+#sub-title {
+  font-family: franklin-gothic-atf, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-style: normal;
+
+  @media (max-width: 600px) {
+    font-size: 0.4rem;
+  }
+}
+
+.text-h4 {
+  font-family: franklin-gothic-atf, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+}
 .text-h2 {
+  font-family: franklin-gothic-atf, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: normal;
+
+  @media (max-width: 600px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+.text-h2 span {
   font-family: franklin-gothic-atf, sans-serif;
   font-size: 2rem;
   font-weight: 600;
@@ -28,23 +148,131 @@
   background-color: $dark;
   opacity: 0.8;
   padding: 0.1rem;
+  //blur effect
+
+  filter: blur(1px);
 }
 
-#navigation-dialog {
-  background-color: $dark;
-  opacity: 0.95;
+#personal-image {
+  max-width: 550px;
 }
+
 .text-h5 {
   font-family: franklin-gothic-atf, sans-serif;
   font-size: 1rem;
-  font-weight: 400;
-  color: white;
+  font-weight: 300;
   font-style: normal;
 }
 
 .my-card {
   width: 100%;
-  max-width: 250px;
+  max-width: 150px;
+}
+
+#navigation-dialog {
+  background-color: $primary;
+
+  opacity: 98%;
+}
+//3d effect on hover for portfolio cards with dark overlay and text
+
+//q-card hover effect for portfolio cards with dark overlay and text
+
+#portfoliocards {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+
+    transform: scale(1.01);
+  }
+}
+
+.overlay {
+  background-color: primary;
+  width: 100%;
   height: 100%;
-  max-height: fit-content;
+  position: absolute;
+  opacity: 0;
+
+  transition: opacity 0.5s;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay:hover {
+  z-index: 2;
+  background-color: $dark;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  opacity: 85%;
+  justify-content: left;
+
+  transition: opacity 0.5s;
+}
+.q-toggle:label {
+  color: $accent;
+  color: white;
+}
+.q-col-gutter-xs {
+  padding: 0rem;
+}
+
+.q-col-gutter-xs > * {
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+//circle transparent cursor on entire page
+
+body {
+  cursor: url("https://i.imgur.com/8Q5Z5Zg.png"), auto;
+}
+
+//remove underline from links
+//make q-footer not fixed to bottom of page
+//make q-footer not sticky to bottom of page
+
+.q-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $dark;
+  color: $accent;
+  opacity: 0.8;
+  padding: 0.1rem;
+  //filter: blur(1px);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+router-link:active {
+  text-decoration: none;
+  color: $secondary;
+}
+
+router-link:visited {
+  text-decoration: none;
+  color: $accent;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $accent;
+}
+
+a:active {
+  text-decoration: none;
+  color: $secondary;
 }

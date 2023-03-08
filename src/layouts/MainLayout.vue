@@ -1,119 +1,69 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-toolbar-title class="text-h1">
-          <span>CHRIS</span> BARNETT
-        </q-toolbar-title>
-
-        <q-space />
-
-        <DarkModeBtn></DarkModeBtn>
-        <NavigationDialog></NavigationDialog>
-
-        <!--<q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
-       -->
-      </q-toolbar>
-    </q-header>
-
-    <!-- <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-list>
-        <q-item-label header> Essential Links </q-item-label>
-
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>-->
-
     <q-page-container>
+      <q-header elevated>
+        <q-toolbar>
+          <q-toolbar-title
+            @click="$router.push('/')"
+            class="text-h1 q-py-none q-my-none q-mx-sm q-mt-md"
+          >
+            <span>CHRIS</span> BARNETT <br />
+            <div id="sub-title" class="q-mt-none q-mb-sm q-pt-none text-info">
+              &nbsp;GRAPHIC DESIGNER | WEB DEVELOPER | USER RESEARCHER
+            </div>
+          </q-toolbar-title>
+
+          <DarkModeBtn></DarkModeBtn>
+
+          <NavigationDialog></NavigationDialog>
+        </q-toolbar>
+        <q-page-scroller
+          position="bottom-right"
+          :scroll-offset="150"
+          :offset="[18, 18]"
+          :duration="500"
+          :behavior="'smooth'"
+        >
+          <q-btn fab icon="arrow_drop_up" color="secondary"></q-btn>
+        </q-page-scroller>
+      </q-header>
+
       <router-view />
-      <q-btn
-        class="q-mt-md bg-secondary text-white"
-        round
-        dense
-        flat
-        right
-        icon="arrow_upward"
-        @click="scrollToTop"
-      />
     </q-page-container>
+
+    <q-footer>
+      <q-toolbar-title>
+        <div class="containerjustify-center">
+          <q-toolbar>
+            <div class="q-mx-lg text-center text-white text-h5">
+              © 2021 CHRIS <span>BARNETT</span>
+            </div>
+          </q-toolbar>
+        </div>
+      </q-toolbar-title>
+    </q-footer>
   </q-layout>
 </template>
 
 <script>
 import { defineComponent, ref } from "vue";
-import EssentialLink from "components/EssentialLink.vue";
 import DarkModeBtn from "components/DarkModeBtn.vue";
 import NavigationDialog from "src/components/NavigationDialog.vue";
-const linksList = [
-  {
-    title: "Docs",
-    caption: "quasar.dev",
-    icon: "school",
-    link: "https://quasar.dev",
-  },
-  {
-    title: "Github",
-    caption: "github.com/quasarframework",
-    icon: "code",
-    link: "https://github.com/quasarframework",
-  },
-  {
-    title: "Discord Chat Channel",
-    caption: "chat.quasar.dev",
-    icon: "chat",
-    link: "https://chat.quasar.dev",
-  },
-  {
-    title: "Forum",
-    caption: "forum.quasar.dev",
-    icon: "record_voice_over",
-    link: "https://forum.quasar.dev",
-  },
-  {
-    title: "Twitter",
-    caption: "@quasarframework",
-    icon: "rss_feed",
-    link: "https://twitter.quasar.dev",
-  },
-  {
-    title: "Facebook",
-    caption: "@QuasarFramework",
-    icon: "public",
-    link: "https://facebook.quasar.dev",
-  },
-  {
-    title: "Quasar Awesome",
-    caption: "Community Quasar projects",
-    icon: "favorite",
-    link: "https://awesome.quasar.dev",
-  },
-];
 
 export default defineComponent({
   name: "MainLayout",
 
   components: {
     // EssentialLink,
-    DarkModeBtn,
+
     NavigationDialog,
+    DarkModeBtn,
   },
 
   setup() {
     const leftDrawerOpen = ref(false);
 
     return {
-      essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
