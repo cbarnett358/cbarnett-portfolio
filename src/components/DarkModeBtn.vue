@@ -1,16 +1,13 @@
 <template>
-  <q-btn
-    class="q-mr-md"
-    round
-    dense
-    flat
-    icon="brightness_2"
-    @click="$q.dark.toggle()"
-  />
   <q-toggle
-    v-model="$q.dark.isActive"
+    size="md"
+    class="q-pl-xs"
+    v-model="dark"
     color="secondary"
+    checked-icon="mode_night"
+    unchecked-icon="light_mode"
     label-position="left"
+    @click="$q.dark.toggle()"
   />
 </template>
 
@@ -19,5 +16,10 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "DarkModeBtn",
+  data() {
+    return {
+      dark: false,
+    };
+  },
 });
 </script>

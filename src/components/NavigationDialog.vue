@@ -1,73 +1,87 @@
 <template>
-  <div class="q-pa-md q-gutter-sm">
+  <div class="q-pl-none">
     <q-btn
       flat
       dense
-      round
+      square
+      id="nav-btn"
       icon="menu"
       aria-label="Menu"
+      size="lg"
       @click="dialog = true"
     />
 
     <q-dialog
       v-model="dialog"
-      persistent
       :maximized="maximizedToggle"
       transition-show="slide-right"
-      transition-hide="slide-down"
+      transition-hide="slide-right"
     >
-      <q-card id="navigation-dialog" class="bg-primary text-white">
-        <q-bar>
+      <q-card id="navigation-dialog" class="text-white">
+        <q-bar class="bg-secondary" size="xl">
           <q-space />
 
-          <q-btn dense flat icon="close" v-close-popup>
+          <q-btn dense flat icon="cancel" v-close-popup size="xl" id="nav-btn">
             <q-tooltip class="bg-white text-primary">Close</q-tooltip>
           </q-btn>
         </q-bar>
 
-        <div class="justify-center row">
+        <div class="justify-center row text-center">
           <q-card-section>
-            <div class="text-h1 text">HOME</div>
+            <router-link to="/">
+              <div class="text-h4 text" to="/">HOME</div>
+            </router-link>
+
+            <q-separator color="accent " />
+
+            <router-link to="/about">
+              <div class="text-h4 text">ABOUT</div>
+            </router-link>
+
             <q-separator color="accent" />
 
-            <div class="text-h1 text">ABOUT</div>
+            <router-link to="/contact">
+              <div class="text-h4 text">CONTACT</div>
+            </router-link>
             <q-separator color="accent" />
 
-            <div class="text-h1 text">PROJECTS</div>
+            <router-link to="/resume">
+              <div class="text-h4 text">RESUME</div>
+            </router-link>
             <q-separator color="accent" />
-
-            <div class="text-h1 text">CONTACT</div>
-            <q-separator color="accent" />
-            <div class="text-h1 text">RESUME</div>
-            <q-separator color="accent" />
-
-            <q-avatar class="q-mt-md q-mr-md">
-              <img
-                src="https://cdn.quasar.dev/img/avatar.png"
-                alt="Chris Barnett"
-              />
-            </q-avatar>
-
-            <q-avatar class="q-mt-md q-mr-md">
-              <img
-                src="https://cdn.quasar.dev/img/avatar.png"
-                alt="Chris Barnett"
-              />
-            </q-avatar>
-
-            <q-avatar class="q-mt-md q-mr-md">
-              <img
-                src="https://cdn.quasar.dev/img/avatar.png"
-                alt="Chris Barnett"
-              />
-            </q-avatar>
-
-            <q-avatar class="q-mt-md q-mr-md">
-              <img
-                src="https://cdn.quasar.dev/img/avatar.png"
-                alt="Chris Barnett"
-              />
-            </q-avatar>
+            <div class="q-mt-md">
+              <q-btn
+                target="_blank"
+                round
+                class="bg-secondary my-button"
+                href="https://www.linkedin.com/in/chrisb-designs"
+              >
+                <q-avatar size="32px" square text-color="white">
+                  <q-icon name="fab fa-linkedin-in"></q-icon>
+                </q-avatar>
+              </q-btn>
+              <q-btn
+                target="_blank"
+                round
+                class="q-mx-sm bg-secondary"
+                href="https://www.behance.net/chrisb-designs"
+              >
+                <q-avatar size="32px" square text-color="white">
+                  <q-icon name="fab fa-behance"></q-icon>
+                </q-avatar>
+              </q-btn>
+              <q-btn
+                id="my-button"
+                target="_blank"
+                round
+                class="bg-secondary"
+                href="https://github.com/cbarnett358"
+              >
+                <q-avatar size="32px" square text-color="white">
+                  <q-icon name="fab fa-github"></q-icon>
+                </q-avatar>
+              </q-btn>
+            </div>
 
             <q-space />
           </q-card-section>
@@ -83,11 +97,15 @@ import { defineComponent, ref } from "vue";
 export default defineComponent({
   name: "NavigationDialog",
 
+  //have buttons open  links in new tab
+
   setup() {
     return {
       dialog: ref(false),
       maximizedToggle: ref(true),
     };
   },
+
+  //close dialog when clicking link
 });
 </script>
