@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white text-center">
+  <div class="text-white text-center mx-lg">
     <div class="text-h2">
       HELLO! I'M A
       <span class="typed-text">{{ typeValue }}</span>

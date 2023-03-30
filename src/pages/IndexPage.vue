@@ -22,6 +22,7 @@
     </template>
 
     <TypeWriter></TypeWriter>
+
     <div class="row">
       <q-btn
         id="my-button"
@@ -68,7 +69,7 @@
           <PortfolioCards></PortfolioCards>
         </q-tab-panel>
 
-        <q-tab-panel name="web" class="q-px-none">
+        <q-tab-panel name="web" class="q-pa-none">
           <WebCards></WebCards>
         </q-tab-panel> </q-tab-panels
     ></q-card>

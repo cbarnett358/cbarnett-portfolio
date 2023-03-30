@@ -1,5 +1,5 @@
 <template>
-  <q-page class="container q-mx-xl q-mb-none">
+  <q-page class="container q-mx-lg q-mb-none">
     <div class="my-container">
       <q-breadcrumbs class="text-h5 text-primary q-mb-lg q-mt-md">
         <q-breadcrumbs-el class="text-primary" label="Home" to="/" />
@@ -14,7 +14,7 @@
             <q-img
               class="q-mr-md contain q-gutter-lg q-mb-lg"
               id="personal-image"
-              src="../assets/images/headphones/kossthumb.png"
+              src="../assets/images/headphones/fs-logo.png"
               alt="Chris Barnett"
               style="max-width: 500px"
               contain
@@ -37,13 +37,7 @@
               <span class="text-bold text-primary">Software Used:</span>
             </div>
             <div>
-              <q-chip
-                icon="adobe"
-                color="light-gray"
-                text-color="primary"
-                square
-                >Adobe Illustrator</q-chip
-              >
+              <q-chip icon="adobe" square>Adobe Illustrator</q-chip>
               <q-chip square icon="adobe">Adobe InDesign</q-chip>
               <q-chip square icon="adobe">Adobe Photoshop</q-chip>
             </div>

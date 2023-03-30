@@ -37,10 +37,10 @@
               checkout progress.
             </div>
 
-            <div class="q-mt-lg">
+            <div>
               <q-btn
                 id="my-button"
-                class="q-mr-md"
+                class="q-mr-md q-mt-sm"
                 color="secondary"
                 square
                 label="Visit Site"
@@ -48,7 +48,7 @@
                 href="https://heckin-snackers.web.app/#/"
               />
               <q-btn
-                class="q-mr-md"
+                class="q-mr-md q-mt-sm"
                 color="accent"
                 square
                 id="secondary-button"

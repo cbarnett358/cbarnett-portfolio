@@ -1,5 +1,5 @@
 <template>
-  <q-page class="container q-mx-xl q-mb-none">
+  <q-page class="container q-mx-lg q-mb-none">
     <div class="my-container">
       <q-breadcrumbs class="text-h5 text-primary q-mb-lg q-mt-md">
         <q-breadcrumbs-el class="text-primary" label="Home" to="/" />
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="q-mt-lg">
-          <div class="q-pa-md">
+          <div>
             <q-video
               :ratio="16 / 9"
               src="https://www.youtube.com/embed/ImDIp-DTqDY"

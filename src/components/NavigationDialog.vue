@@ -21,7 +21,7 @@
         <q-bar class="bg-secondary" size="xl">
           <q-space />
 
-          <q-btn dense flat icon="cancel" v-close-popup size="xl" id="nav-btn">
+          <q-btn dense flat icon="cancel" v-close-popup size="lg" id="nav-btn">
             <q-tooltip class="bg-white text-primary">Close</q-tooltip>
           </q-btn>
         </q-bar>

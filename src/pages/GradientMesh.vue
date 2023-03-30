@@ -34,13 +34,7 @@
               <span class="text-bold text-primary">Software Used:</span>
             </div>
             <div>
-              <q-chip
-                icon="adobe"
-                color="light-gray"
-                text-color="primary"
-                square
-                >Adobe Illustrator</q-chip
-              >
+              <q-chip icon="adobe" square>Adobe Illustrator</q-chip>
               <q-chip square icon="adobe">Adobe InDesign</q-chip>
               <q-chip square icon="adobe">Adobe Dimension</q-chip>
               <q-chip square icon="adobe">Adobe Photoshop</q-chip>

@@ -5,7 +5,7 @@
         <q-toolbar>
           <q-toolbar-title
             @click="$router.push('/')"
-            class="text-h1 q-py-none q-my-none q-mx-sm q-mt-md"
+            class="text-h1 q-py-none q-my-sm q-ml-sm q-pt-md"
           >
             <span>CHRIS</span> BARNETT <br />
             <div id="sub-title" class="q-mt-none q-mb-sm q-pt-none text-info">
@@ -33,10 +33,10 @@
 
     <q-footer>
       <q-toolbar-title>
-        <div class="containerjustify-center">
+        <div class="container justify-center">
           <q-toolbar>
-            <div class="q-mx-lg text-center text-white text-h5">
-              © 2021 CHRIS <span>BARNETT</span>
+            <div class="text-white text-h5">
+              © 2021 CHRIS <span class="footer-h5">BARNETT</span>
             </div>
           </q-toolbar>
         </div>

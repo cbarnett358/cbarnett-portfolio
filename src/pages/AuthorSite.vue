@@ -38,10 +38,10 @@
             Taxonomy Templates, Custom Fields, Custom Fields, and Plugin.
           </div>
 
-          <div class="q-mt-lg">
+          <div>
             <q-btn
               id="my-button"
-              class="q-mr-md"
+              class="q-mr-md q-mt-sm"
               color="secondary"
               square
               label="Visit Site"
@@ -49,7 +49,7 @@
               href="https://cbarnett4.bitlampsites.com/wpd/final/"
             />
             <q-btn
-              class="q-mr-md"
+              class="q-mr-md q-mt-sm"
               color="accent"
               square
               id="secondary-button"

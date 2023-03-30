@@ -1,5 +1,5 @@
 <template>
-  <q-page class="container q-mx-xl q-mb-none q-mt-lg">
+  <q-page class="container q-mx-lg q-mb-none">
     <div class="my-container">
       <q-breadcrumbs class="text-h5 text-primary q-my-lg q-mb-none">
         <q-breadcrumbs-el class="text-primary" label="Home" to="/" />
@@ -12,7 +12,7 @@
             <q-img
               class="q-mr-md contain q-gutter-lg q-mb-lg"
               id="personal-image"
-              src="../assets/images/20221121_124217.png"
+              src="../assets/images/myprofile.png"
               alt="Chris Barnett"
               contain
             />
@@ -66,6 +66,39 @@
               icon="description"
               to="/resume"
             />
+            <div class="q-mt-lg">
+              <q-btn
+                target="_blank"
+                round
+                class="bg-secondary my-button"
+                href="https://www.linkedin.com/in/chrisb-designs"
+              >
+                <q-avatar size="32px" square text-color="white">
+                  <q-icon name="fab fa-linkedin-in"></q-icon>
+                </q-avatar>
+              </q-btn>
+              <q-btn
+                target="_blank"
+                round
+                class="q-mx-sm bg-secondary"
+                href="https://www.behance.net/chrisb-designs"
+              >
+                <q-avatar size="32px" square text-color="white">
+                  <q-icon name="fab fa-behance"></q-icon>
+                </q-avatar>
+              </q-btn>
+              <q-btn
+                id="my-button"
+                target="_blank"
+                round
+                class="bg-secondary"
+                href="https://github.com/cbarnett358"
+              >
+                <q-avatar size="32px" square text-color="white">
+                  <q-icon name="fab fa-github"></q-icon>
+                </q-avatar>
+              </q-btn>
+            </div>
           </div>
         </div>
       </q-card>
