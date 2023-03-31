@@ -25,26 +25,24 @@
               HELLO! <span>I'M CHRIS</span>
             </div>
             <div class>
-              Growing up, I was always fascinated with the internet creating
-              things. Some of my earliest memories were of myself painting,
-              constructing tech deck parks out of cardboard, and scanning the
-              internet for new flash games to play. It's safe to say that I am
-              creative and resourceful through and through, which is why I love
-              developing, designing, and curating new and existing ideas to be
-              the best that; they can be.
+              Greetings, I am Chris Barnett, a dedicated graphic design and
+              front-end web development student. With just a few months to
+              graduation, I am excited to share that I have gained over a year
+              of valuable Graphic/Web Design experience.
             </div>
             <div class="q-mt-sm">
-              My greatest strength is my attention to detail, not only in a
-              creative sense but; also from a user's perspective. Whether it be
-              identifying inconsistencies in color, margins, or fonts, to
-              noticing ways designs can be more user-friendly, I constantly look
-              for ways to improve work, both new and old.
+              Pursuing this path has allowed me to combine my two passions:
+              design and technology. My skills include working with WordPress,
+              Adobe Creative Suite, HTML, Javascript, and CSS frameworks. I take
+              pride in my strong attention to detail and ability to manage time
+              effectively. Additionally, I am honored to have been on the honor
+              roll for both degrees. Looking ahead, I am eager to expand my
+              knowledge and experience in UX design and 3D modeling.
             </div>
             <div class="q-mt-sm">
-              In my free time, you can find me playing with my dog Winston,
-              shaping errant golf shots around trees, exploring new video games
-              with friends, binging new shows, lifting heavier than last time,
-              and cooking new recipes.
+              During my free time, I enjoy playing with my dog Winston, golfing,
+              trying out new video games with friends, watching shows,
+              weightlifting, and cooking new recipes.
             </div>
 
             <q-btn
