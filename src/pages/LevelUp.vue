@@ -43,7 +43,7 @@
                 square
                 label="Visit Site"
                 icon="web"
-                href="https://cbarnett4.bitlampsites.com/php1/barnett-final/"
+                href="https://levelup-games.vercel.app/"
               />
               <q-btn
                 class="q-mr-md q-mt-sm"
@@ -76,18 +76,18 @@
             </div>
           </div>
         </div>
-
-        <q-img
-          class="q-mt-xl"
-          src="../assets/images/levelup/leelup-employee.png"
-        />
         <q-img
           class="q-mt-xl"
           src="../assets/images/levelup/levelup-store.jpg"
         />
         <q-img
           class="q-mt-xl"
-          src="../assets/images/levelup/levelup-site.png"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/afda4e148785895.6447469edd441.png"
+        />
+
+        <q-img
+          class="q-mt-xl"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/d31bba148785895.62db7fe80bfac.png"
         />
       </q-card>
     </div>

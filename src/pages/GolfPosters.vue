@@ -30,17 +30,19 @@
             Advertisements, Mockups
           </div>
           <q-img
-            class="contain q-mt-lg"
-            src="../assets/images/golf-pro-posters/progolf-mock.jpg"
-            alt="Door County Travel Poster"
-            contain
+            class="q-mt-lg"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/0d8af2132715535.64473ffc4e14d.jpg"
           />
           <q-img
-            class="contain q-mt-lg"
-            src="../assets/images/golf-pro-posters/jday-insta.png"
-            alt="Door County Travel Poster"
-            contain
+            class="q-mt-lg"
+            src="../assets/images/golf-pro-posters/progolf-mock.jpg"
           />
+
+          <q-img
+            class="q-mt-lg"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/a0f7cf132715535.64473ffc4ef3e.jpg"
+          />
+
           <div class="row">
             <div class="col-12 col-md">
               <q-img

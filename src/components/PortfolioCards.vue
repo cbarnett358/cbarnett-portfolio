@@ -54,7 +54,7 @@ export default defineComponent({
         subtitle: "Brand Indentity | UX | Website",
         route: "/portfolio/dragonvalley",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/199da8128696833.Y3JvcCwxMDg5LDg1Miw4MCwzNDU.png",
+          "https://mir-s3-cdn-cf.behance.net/projects/808/2a1881128696833.Y3JvcCwxMDI0LDgwMSw4OCww.png",
       },
       {
         id: 4,
@@ -87,7 +87,7 @@ export default defineComponent({
         subtitle: "Poster Design | Social Media Promotion",
         route: "/portfolio/golfposter",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e2ef0f132715535.Y3JvcCwxMzk1LDEwOTEsNzc2LDMyNA.jpg",
+          "https://mir-s3-cdn-cf.behance.net/projects/808/8f120c132715535.Y3JvcCwxODIwLDE0MjQsMTEyLDA.jpg",
       },
 
       {

@@ -42,7 +42,7 @@
                 class="q-mr-md"
                 color="secondary"
                 square
-                label="Visit Site (In Progress)"
+                label="Visit Site"
                 icon="web"
                 href="https://cbarnett4.bitlampsites.com/wpd/dragonvalley-site/"
               />
@@ -69,11 +69,11 @@
 
         <q-img
           class="q-mt-xl"
-          src="../assets/images/dragon-valley/dv-site.png"
+          src="../assets/images/dragon-valley/dv-site-mock.png"
         />
         <q-img
           class="q-mt-xl"
-          src="../assets/images/dragon-valley/dvscorecard.png"
+          src="../assets/images/dragon-valley/dv-sc-mock.png"
         />
         <q-img
           class="q-mt-xl"
@@ -85,8 +85,40 @@
         />
         <q-img
           class="q-mt-xl"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/0b7117128696833.6447487609ece.png"
+        />
+
+        <q-img
+          class="q-mt-xl"
+          src="../assets/images/dragon-valley/dv-sc-front.jpg"
+        />
+        <q-img
+          class="q-mt-xl"
+          src="../assets/images/dragon-valley/dv-sc-back.png"
+        />
+        <q-img
+          class="q-mt-xl"
           src="../assets/images/dragon-valley/dragonvalleypersona1.jpg"
         />
+        <q-img
+          class="q-mt-xl"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/0b90c8128696833.6449690d3cbda.png"
+        />
+
+        <div class="row">
+          <div class="col-12 col-md">
+            <q-img
+              class="q-mt-xl"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/564b8a128696833.6447487607296.png"
+            />
+          </div>
+          <div class="col-12 col-md">
+            <q-img
+              class="q-mt-xl"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/d3ff51128696833.64474876090ba.png"
+            />
+          </div>
+        </div>
       </q-card>
     </div>
   </q-page>

@@ -61,7 +61,14 @@
           class="q-mt-lg"
           src="../assets/images/space-museum/ticketmock.png"
         />
-
+        <q-img
+          class="q-mt-xl"
+          src="../assets/images/space-museum/space-poster-mock.png"
+        />
+        <q-img
+          class="q-mt-xl"
+          src="../assets/images/space-museum/museum-invite-mock.png"
+        />
         <div class="row">
           <div class="col-12 col-md">
             <q-img
@@ -76,13 +83,41 @@
             />
           </div>
         </div>
+        <div class="row">
+          <div class="col-12 col-md">
+            <q-img
+              class="q-mt-xl"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8f669c119402507.6447464917ff2.png"
+            />
+          </div>
+          <div class="col-12 col-md">
+            <q-img
+              class="q-mt-xl"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/257dfd119402507.64474649173e9.png"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md">
+            <q-img
+              class="q-mt-xl"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/061928119402507.64474648a7e39.png"
+            />
+          </div>
+          <div class="col-12 col-md">
+            <q-img
+              class="q-mt-xl"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c592e7119402507.64474648a88cb.png"
+            />
+          </div>
+        </div>
         <q-img
           class="q-mt-xl"
-          src="../assets/images/space-museum/museum-invite-mock.png"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/43da3d119402507.6447464919aa2.png"
         />
         <q-img
           class="q-mt-xl"
-          src="../assets/images/space-museum/space-poster-mock.png"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/7a056f119402507.644746491a906.png"
         />
       </q-card>
     </div>

@@ -59,7 +59,7 @@
         wide-indicator
       >
         <q-tab name="work" label="ALL WORK" />
-        <q-tab name="web" label="WEB ONLY" />
+        <q-tab name="web" label="WITH WEBSITES" />
       </q-tabs>
 
       <q-separator />

@@ -40,7 +40,7 @@ export default defineComponent({
         subtitle: "Brand Indentity | Website",
         route: "/portfolio/heckinsnackers",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e94eb5127530107.Y3JvcCwxNDAwLDEwOTUsMCwxMzg.png",
+          "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/39b32c127530107.6447491b55d96.jpg",
       },
 
       {
@@ -49,7 +49,7 @@ export default defineComponent({
         subtitle: "Brand Indentity | UX | Website",
         route: "/portfolio/dragonvalley",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/199da8128696833.Y3JvcCwxMDg5LDg1Miw4MCwzNDU.png",
+          "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e907a3128696833.644748760bc46.png",
       },
 
       {
@@ -59,7 +59,7 @@ export default defineComponent({
         subtitle: "Brand Indentity | Website",
         route: "/portfolio/levelupgames",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2b0e2f148785895.Y3JvcCwxMDQwLDgxMyw2OSww.jpg",
+          "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/afda4e148785895.6447469edd441.png",
       },
 
       {

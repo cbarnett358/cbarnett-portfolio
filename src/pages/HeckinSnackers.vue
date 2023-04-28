@@ -111,7 +111,7 @@
 
         <q-img
           class="q-mt-xl"
-          src="../assets/images/heckinsnackers/heckin-site.png"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/aed996127530107.6435966c48d91.png"
         />
 
         <q-img

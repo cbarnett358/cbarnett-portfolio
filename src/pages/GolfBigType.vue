@@ -71,6 +71,18 @@
             />
           </div>
         </div>
+        <q-img
+          class="q-mt-lg"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/80435c126132195.61272b40e1e9f.png"
+        />
+        <q-img
+          class="q-mt-lg"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/35aef4126132195.61272b40e1713.png"
+        />
+        <q-img
+          class="q-mt-lg"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/24703d126132195.6447f2ae315b4.png"
+        />
       </q-card>
     </div>
   </q-page>

@@ -97,47 +97,22 @@
           src="../assets/images/canyonsprings/canyonmock.png"
         />
 
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <q-img
-              class="q-mt-xl"
-              src="../assets/images/canyonsprings/canyonfront.png"
-            />
-          </div>
-          <div class="col-12 col-md-6">
-            <q-img
-              class="q-mt-xl"
-              src="../assets/images/canyonsprings/canyonback.png"
-            />
-          </div>
-        </div>
-
         <q-img
           class="q-mt-xl"
           src="../assets/images/canyonsprings/canyon-package-mock.png"
         />
-        <div class="row">
-          <div class="col-12 col-md">
-            <q-img
-              class="q-mt-xl"
-              src="../assets/images/canyonsprings/cs-bw.png"
-            />
-          </div>
-
-          <div class="col-12 col-md">
-            <q-img
-              class="q-mt-xl"
-              src="../assets/images/canyonsprings/cs-salts.png"
-            />
-          </div>
-
-          <div class="col-12 col-md">
-            <q-img
-              class="q-mt-xl"
-              src="../assets/images/canyonsprings/cs-herbal.png"
-            />
-          </div>
-        </div>
+        <q-img
+          class="q-mt-xl"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/4e9a9b118017291.6080bc77997ea.png"
+        />
+        <q-img
+          class="q-mt-xl"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/d50332118017291.644743de8c3ac.jpg"
+        />
+        <q-img
+          class="q-mt-xl"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/870204118017291.644743de8d595.jpg"
+        />
       </q-card>
     </div>
   </q-page>

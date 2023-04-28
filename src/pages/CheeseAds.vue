@@ -73,22 +73,20 @@
             contain
           />
           <q-img
-            class="contain q-mt-lg"
-            src="../assets/images/cheese-ads/ufo-mock.png"
-            alt="Door County Travel Poster"
-            contain
+            class="q-mt-lg"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/2a56dc131164975.618f4fcee57b4.png"
           />
           <q-img
-            class="contain q-mt-lg"
-            src="../assets/images/cheese-ads/missing-mock.png"
-            alt="Door County Travel Poster"
-            contain
+            class="q-mt-lg"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/73920e131164975.6447473b26bac.png"
           />
           <q-img
-            class="contain q-mt-lg"
-            src="../assets/images/cheese-ads/robber-mock.png"
-            alt="Door County Travel Poster"
-            contain
+            class="q-mt-lg"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/f118b3131164975.6447473b25e31.png"
+          />
+          <q-img
+            class="q-mt-lg"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/1e9637131164975.6447473b2791e.png"
           />
         </div>
       </q-card>
