@@ -64,8 +64,9 @@
                   <q-chip square icon="adobe">Adobe InDesign</q-chip>
                   <q-chip square icon="adobe">Adobe Photoshop</q-chip>
                   <q-chip square icon="code">MySQL</q-chip>
-                  <q-chip square icon="code">PHP</q-chip>
-                  <q-chip square icon="code">Bootstrap</q-chip>
+                  <q-chip square icon="code">Next.js</q-chip>
+                  <q-chip square icon="code">Tailwind</q-chip>
+                  <q-chip square icon="code">daisyUI</q-chip>
                 </div>
 
                 <div class="q-mt-lg">
