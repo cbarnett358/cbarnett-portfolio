@@ -166,6 +166,14 @@ export default defineComponent({
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e24c50153296511.Y3JvcCwxMzkzLDEwOTAsNTgsMjQ.png",
       },
+      {
+        id: 17,
+        title: "Kinetic Type",
+        subtitle: "Animation | Typography",
+        route: "/portfolio/kinetic-type",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/808/69783c169873749.Y3JvcCwyNTc3LDIwMTYsNDkxLDA.png",
+      },
     ];
 
     return { cards };

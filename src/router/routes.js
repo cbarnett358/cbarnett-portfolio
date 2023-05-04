@@ -117,6 +117,11 @@ const routes = [
     component: () => import("layouts/MainLayout.vue"),
     children: [{ path: "", component: () => import("pages/DoorCounty.vue") }],
   },
+  {
+    path: "/portfolio/kinetic-type",
+    component: () => import("layouts/MainLayout.vue"),
+    children: [{ path: "", component: () => import("pages/KineticType.vue") }],
+  },
 
   {
     path: "/about",

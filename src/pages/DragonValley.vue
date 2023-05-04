@@ -130,6 +130,9 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "DragonValley",
 
-  //q-btn open in new tab
+  mounted() {
+    const myButton = document.getElementById("my-button");
+    myButton.setAttribute("target", "_blank");
+  },
 });
 </script>

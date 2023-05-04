@@ -30,9 +30,8 @@
               level<span>UP</span>
             </div>
             <div class="q-my-md">
-              (Currently recreating with Nextjs) levelUP Retro Game Exchange
-              allows users to buy, sell, and trade retro video games and
-              consoles.
+              levelUP Retro Game Exchange allows users to buy, sell, and trade
+              retro video games and consoles.
             </div>
 
             <div>
@@ -53,7 +52,7 @@
                 text-color="primary"
                 label="View Code"
                 icon="fab fa-github"
-                href="https://github.com/cbarnett358/levelUP-Retro-Games"
+                href="https://github.com/cbarnett358/levelup-games"
               />
               <div class="container q-mt-lg">
                 <div>
@@ -71,7 +70,7 @@
 
                 <div class="q-mt-lg">
                   <span class="text-bold text-primary">Deliverables:</span>
-                  Logo, Apparel, Website, Mockups
+                  Logo, Apparel, Website, Mockups, Database.
                 </div>
               </div>
             </div>
