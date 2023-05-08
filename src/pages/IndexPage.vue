@@ -16,9 +16,16 @@
 
     <div class="text-white text-h1 q-mt-none q-pt-none"></div>
   </q-parallax>-->
-  <q-parallax :height="300" :speed="0.5">
+  <q-parallax :height="300" :speed="0.5" class="bg-secondary">
     <template v-slot:media>
-      <img src="../assets/images/parallax1.jpg" />
+      <div class="parallax-container">
+        <div class="image-wrapper align-right">
+          <img
+            src="../assets/images/cb-blend.png"
+            class="responsive-image q-pa-lg"
+          />
+        </div>
+      </div>
     </template>
 
     <TypeWriter></TypeWriter>

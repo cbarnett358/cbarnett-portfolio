@@ -239,6 +239,19 @@ body {
 //remove underline from links
 //make q-footer not fixed to bottom of page
 //make q-footer not sticky to bottom of page
+.parallax-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-wrapper.align-right {
+  margin-left: auto;
+  transform: translateX(80%);
+
+  @media (max-width: 600px) {
+    transform: translateX(80%);
+  }
+}
 
 .q-footer {
   position: relative;
