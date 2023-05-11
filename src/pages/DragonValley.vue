@@ -54,8 +54,8 @@
                   <q-chip icon="adobe" square>Adobe Illustrator</q-chip>
                   <q-chip square icon="adobe">Adobe InDesign</q-chip>
                   <q-chip square icon="adobe">Adobe Photoshop</q-chip>
-                  <q-chip square icon="code">WordPress</q-chip>
-                  <q-chip square icon="code">Elementor</q-chip>
+                  <q-chip square icon="wordpress">WordPress</q-chip>
+                  <q-chip square icon="wordpress">Elementor</q-chip>
                 </div>
 
                 <div class="q-mt-lg">

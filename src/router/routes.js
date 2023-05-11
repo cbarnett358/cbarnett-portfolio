@@ -122,6 +122,18 @@ const routes = [
     component: () => import("layouts/MainLayout.vue"),
     children: [{ path: "", component: () => import("pages/KineticType.vue") }],
   },
+  {
+    path: "/portfolio/sewicoad",
+    component: () => import("layouts/MainLayout.vue"),
+    children: [{ path: "", component: () => import("pages/SewiCoad.vue") }],
+  },
+  {
+    path: "/portfolio/ironman-cleaning",
+    component: () => import("layouts/MainLayout.vue"),
+    children: [
+      { path: "", component: () => import("pages/IronmanCleaning.vue") },
+    ],
+  },
 
   {
     path: "/about",

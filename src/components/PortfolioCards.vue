@@ -35,7 +35,7 @@ export default defineComponent({
       {
         id: 1,
         title: "Heckin' Snackers",
-        subtitle: "Brand Indentity | Website",
+        subtitle: "Brand Indentity | Website Design",
         route: "/portfolio/heckinsnackers",
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e94eb5127530107.Y3JvcCwxNDAwLDEwOTUsMCwxMzg.png",
@@ -51,7 +51,7 @@ export default defineComponent({
       {
         id: 3,
         title: "Dragon Valley Golf Club",
-        subtitle: "Brand Indentity | UX | Website",
+        subtitle: "Brand Indentity | UX | Website Design",
         route: "/portfolio/dragonvalley",
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/808/2a1881128696833.Y3JvcCwxMDI0LDgwMSw4OCww.png",
@@ -68,10 +68,10 @@ export default defineComponent({
         id: 5,
         title: "LevelUp Games",
         route: "/portfolio/levelupgames",
-        subtitle: "Brand Indentity | Website",
+        subtitle: "Brand Indentity | Website Design",
         route: "/portfolio/levelupgames",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2b0e2f148785895.Y3JvcCwxMDQwLDgxMyw2OSww.jpg",
+          "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/afda4e148785895.6447469edd441.png",
       },
       {
         id: 6,
@@ -81,6 +81,7 @@ export default defineComponent({
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/8e6f1b119402507.Y3JvcCw5MTYsNzE3LDE0MCww.png",
       },
+
       {
         id: 7,
         title: "Pro Golf Posters",
@@ -89,20 +90,19 @@ export default defineComponent({
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/808/8f120c132715535.Y3JvcCwxODIwLDE0MjQsMTEyLDA.jpg",
       },
-
       {
-        id: 8,
-        title: "Golf Ball Big Type",
-        subtitle: "Poster Design | Typography | Advertising",
-        route: "/portfolio/bigtype",
+        id: 18,
+        title: "SEWI COAD",
+        subtitle: "Website Design",
+        route: "/portfolio/SewiCoad",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/20fe5d126132195.Y3JvcCwxNTc3LDEyMzQsNTQsMA.png",
+          "https://raw.githubusercontent.com/cbarnett358/levelUP-Images/main/levelup-game-covers/coadthumb.png",
       },
 
       {
         id: 9,
         title: "Author Website",
-        subtitle: "Gurella Marketing | Advertising",
+        subtitle: "Website Design",
         route: "/portfolio/authorsite",
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/7a819b164978091.Y3JvcCwyMDA5LDE1NzEsODMwLDgzNQ.jpg",
@@ -132,6 +132,7 @@ export default defineComponent({
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/8e6268130452031.Y3JvcCwxMTMwLDg4MywwLDU.png",
       },
+
       {
         id: 13,
         title: "Tiger Woods Poster",
@@ -148,6 +149,14 @@ export default defineComponent({
         route: "/portfolio/door-county-poster",
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/647f11131477249.Y3JvcCwxMDk3LDg1OCwwLDMxNA.jpg",
+      },
+      {
+        id: 19,
+        title: "Ironman Industrial Cleaning",
+        route: "/portfolio/ironman-cleaning",
+        subtitle: "Website Design",
+        image:
+          "https://raw.githubusercontent.com/cbarnett358/levelUP-Images/main/levelup-game-covers/Ironman-mock.png",
       },
       {
         id: 15,
@@ -173,6 +182,14 @@ export default defineComponent({
         route: "/portfolio/kinetic-type",
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/808/69783c169873749.Y3JvcCwyNTc3LDIwMTYsNDkxLDA.png",
+      },
+      {
+        id: 8,
+        title: "Golf Ball Big Type",
+        subtitle: "Poster Design | Typography | Advertising",
+        route: "/portfolio/bigtype",
+        image:
+          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/20fe5d126132195.Y3JvcCwxNTc3LDEyMzQsNTQsMA.png",
       },
     ];
 

@@ -7,37 +7,13 @@
       </q-breadcrumbs>
       <q-card class="my-padding" square>
         <div class="container">
-          <div
-            class-dark="text-white"
-            class="text-h2 text-primary q-mt-none q-mb-sm"
-          >
+          <div class-dark="text-white" class="text-h2 text-primary q-mt-none">
             WILLIAM GIBSON <span>WEBSITE</span>
           </div>
-          <div class="q-mb-lg">
+          <div class="q-mb-sm">
             A website for the famous cyberpunk author William Gibson. The site
             was built using WordPress with a cutstom theme.
           </div>
-          <div class="q-mb-sm">
-            <span class="text-bold text-primary">Software Used:</span>
-          </div>
-          <div>
-            <q-chip
-              icon="wordpress"
-              color="light-gray"
-              text-color="primary"
-              square
-              >WordPress</q-chip
-            >
-            <q-chip square icon="php">PHP</q-chip>
-            <q-chip square icon="adobe">Photoshop</q-chip>
-          </div>
-          <div class="q-mt-lg">
-            <span class="text-bold text-primary">Deliverables:</span> Website,
-            Custom WordPress Theme, Post Types, Custom Fields, Custom
-            Taxonomies, Custom Post Types, Custom Post Type Templates, Custom
-            Taxonomy Templates, Custom Fields, Custom Fields, and Plugin.
-          </div>
-
           <div>
             <q-btn
               id="my-button"
@@ -58,6 +34,26 @@
               icon="fab fa-github"
               href="https://github.com/cbarnett358/iwd-demo/tree/wpd-final"
             />
+          </div>
+          <div class="q-mb-sm q-mt-lg">
+            <span class="text-bold text-primary">Software Used:</span>
+          </div>
+          <div>
+            <q-chip
+              icon="wordpress"
+              color="light-gray"
+              text-color="primary"
+              square
+              >WordPress</q-chip
+            >
+            <q-chip square icon="php">PHP</q-chip>
+            <q-chip square icon="adobe">Adobe Photoshop</q-chip>
+          </div>
+          <div class="q-mt-lg">
+            <span class="text-bold text-primary">Deliverables:</span> Website,
+            Custom WordPress Theme, Post Types, Custom Fields, Custom
+            Taxonomies, Custom Post Types, Custom Post Type Templates, Custom
+            Taxonomy Templates, Custom Fields, Custom Fields, and Plugin.
           </div>
 
           <q-img

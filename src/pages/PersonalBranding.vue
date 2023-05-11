@@ -101,9 +101,8 @@ export default defineComponent({
 
   mounted() {
     const myButton = document.getElementById("my-button");
-    const secondaryButton = document.getElementById("secondary-button");
     myButton.setAttribute("target", "_blank");
-    secondaryButton.setAttribute("target", "_blank");
+   
   },
 });
 </script>

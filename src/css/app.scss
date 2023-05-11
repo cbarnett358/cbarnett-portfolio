@@ -248,8 +248,8 @@ body {
   margin-left: auto;
   transform: translateX(80%);
 
-  @media (max-width: 600px) {
-    transform: translateX(80%);
+  @media (max-width: 800px) {
+    display: none;
   }
 }
 

@@ -65,8 +65,8 @@
         align="justify"
         wide-indicator
       >
-        <q-tab name="work" label="ALL WORK" />
-        <q-tab name="web" label="WITH WEBSITES" />
+        <q-tab name="work" label="ALL DESIGNS" />
+        <q-tab name="web" label="WEB DESIGNS" />
       </q-tabs>
 
       <q-separator />

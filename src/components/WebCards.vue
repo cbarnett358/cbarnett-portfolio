@@ -70,14 +70,22 @@ export default defineComponent({
         image:
           "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/7a819b164978091.Y3JvcCwyMDA5LDE1NzEsODMwLDgzNQ.jpg",
       },
+      {
+        id: 18,
+        title: "SEWI COAD",
+        subtitle: "Website Design",
+        route: "/portfolio/SewiCoad",
+        image:
+          "https://raw.githubusercontent.com/cbarnett358/levelUP-Images/main/levelup-game-covers/coadthumb.png",
+      },
 
       {
-        id: 15,
-        title: "Personal Brand",
-        route: "/portfolio/personalbrand",
-        subtitle: "Branding | 3D Modeling | Website",
+        id: 19,
+        title: "Ironman Industrial Cleaning",
+        route: "/portfolio/ironman-cleaning",
+        subtitle: "Website Design",
         image:
-          "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/fdef77127981555.Y3JvcCwxODMyLDE0MzIsMCw0NQ.png",
+          "https://raw.githubusercontent.com/cbarnett358/levelUP-Images/main/levelup-game-covers/Ironman-mock.png",
       },
     ];
 
